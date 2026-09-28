@@ -1,0 +1,6 @@
+.DS_Store
+.venv/
+cookies/
+verify_code.txt
+qrcode.png
+*_login_qrcode_*.png

@@ -1,0 +1,31 @@
+{
+  "name": "creator90-publisher",
+  "version": "0.1.0",
+  "description": "为 creator90 主账号整理并发布抖音、视频号口播视频和小红书图文。",
+  "author": {
+    "name": "Creator90 Publishing Workflow"
+  },
+  "repository": "https://github.com/tianqiyun3090-bot/creator90-publisher",
+  "license": "MIT",
+  "keywords": [
+    "creator90",
+    "douyin",
+    "wechat-channels",
+    "xiaohongshu",
+    "social-publishing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Creator90 内容发布",
+    "shortDescription": "抖音、视频号发视频，小红书发图文",
+    "longDescription": "按 creator90 发布规则整理内容，并调用 social-auto-upload 项目的 sau CLI 完成发布。每台电脑需自行安装运行环境并登录账号。",
+    "developerName": "Creator90 Publishing Workflow",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "为 creator90 准备并发布这段口播视频到抖音和视频号",
+      "根据这段口播制作 creator90 小红书图文并发布",
+      "检查 creator90 指定平台账号的登录状态"
+    ]
+  }
+}

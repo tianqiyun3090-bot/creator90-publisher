@@ -1,0 +1,20 @@
+{
+  "name": "creator90",
+  "interface": {
+    "displayName": "Creator90"
+  },
+  "plugins": [
+    {
+      "name": "creator90-publisher",
+      "source": {
+        "source": "local",
+        "path": "./plugins/creator90-publisher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
