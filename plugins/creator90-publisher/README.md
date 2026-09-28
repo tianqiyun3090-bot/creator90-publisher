@@ -43,3 +43,9 @@
    Windows 使用 `.venv/Scripts/sau.exe`。扫码由账号持有人在本机完成。每个平台的登录态都保存在本机项目的 `cookies/` 目录，不要把 Cookie 文件复制到插件或提交到 Git。
 
 用户提供的素材路径仍需在运行该任务的电脑上可访问。没有该项目副本、依赖或登录态时，插件会先提示补齐环境，不会假定其他电脑已配置好。
+
+## 小红书图文默认方式
+
+用户只需给口播稿，不必提供图片。Codex 会将口播稿改写成适合小红书阅读和吸引点击的笔记正文，再生成约 4 张 3:4 图文页。原视频封面留给视频发布，不复用为小红书配图；每一页都要紧扣口播内容，不加入低相关素材。
+
+视觉指导流程改编自 [xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill)，保留 MIT 授权与来源说明，见 [UPSTREAM_LICENSE](skills/xhs-visual-director/UPSTREAM_LICENSE)。

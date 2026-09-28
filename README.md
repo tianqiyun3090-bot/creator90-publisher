@@ -5,7 +5,11 @@ Creator90 Publisher is a Codex plugin for one workflow:
 - Publish the supplied talking-head video to Douyin and WeChat Channels.
 - Publish image-text notes to Xiaohongshu.
 
+For Xiaohongshu, users only need to provide a spoken script. Codex adapts it into a Xiaohongshu note body and generates about four related 3:4 images. The video cover remains for video publishing and is not reused in the note; every card must map to the supplied script.
+
 The plugin contains instructions and a repo marketplace. It does not include the uploader runtime, media files, or account cookies. Publishing runs through the `sau` CLI from a compatible `social-auto-upload` checkout on the user's computer.
+
+The Xiaohongshu visual workflow is adapted from [xhs-visual-director-skill](https://github.com/ziguishian/xhs-visual-director-skill) under its MIT license; the original license notice is included in the bundled skill.
 
 ## Install the uploader runtime
 

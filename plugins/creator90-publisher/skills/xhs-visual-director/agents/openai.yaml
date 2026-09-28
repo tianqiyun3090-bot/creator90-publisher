@@ -1,0 +1,7 @@
+interface:
+  display_name: "Creator90 小红书图文设计"
+  short_description: "把口播稿改成小红书笔记，并生成约四张相关图文"
+  brand_color: "#111827"
+  default_prompt: "Use $xhs-visual-director to adapt this script for Xiaohongshu and generate about four relevant 3:4 images."
+policy:
+  allow_implicit_invocation: true
