@@ -7,7 +7,7 @@
 插件不包含上传器运行时，也不包含账号 Cookie。每台电脑都需要：
 
 1. 安装 Codex，并克隆本项目。
-2. 在项目根目录按 [`docs/install.md`](../../docs/install.md) 安装 Python 依赖和 Patchright Chromium。macOS/Linux：
+2. 在项目根目录按 [`social-auto-upload` 安装文档](https://github.com/dreammis/social-auto-upload/blob/main/docs/install.md) 安装 Python 依赖和 Patchright Chromium。macOS/Linux：
 
    ```bash
    uv venv
